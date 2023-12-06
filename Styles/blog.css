@@ -299,3 +299,20 @@ section {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 390px) {
+
+    .site-map {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .blog-list-container {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

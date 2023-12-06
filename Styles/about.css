@@ -447,3 +447,29 @@ section {
         position: static;
     }
 }
+
+@media screen and (max-width: 390px) {
+
+    .site-map {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .about-main-container {
+        width: 360px;
+        display: flex;
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .about-me-img {
+        width: 290px;
+    }
+
+    .tools-images {
+        width: 350px;
+    }
+
+}

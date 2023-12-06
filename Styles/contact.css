@@ -310,3 +310,18 @@ input::placeholder {
         width: 370px;
     }
 }
+
+@media screen and (max-width: 390px) {
+
+    .site-map {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .contact-wrapper {
+        width: 350px;
+    }
+
+}

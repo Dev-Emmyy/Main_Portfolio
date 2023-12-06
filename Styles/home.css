@@ -406,3 +406,29 @@ section {
     }
     
 }
+
+
+@media screen and (max-width: 390px) {
+
+    .about-block {
+        width: 100%;
+    }
+
+    .bg_image {
+        width: 350px;
+        height: 470px;
+    }
+
+    .blog-block {
+        width: 350px;
+    }
+
+    .contact-block {
+        width: 350px;
+    }
+
+    .work-block {
+        width: 350px;
+    }
+
+}

@@ -294,3 +294,18 @@ section {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 390px) {
+
+    .site-map {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .work-item-inner {
+        width: 350px;
+    }
+
+}
